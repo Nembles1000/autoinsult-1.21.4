@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "autoinsult",
+	"version": "${version}",
+	"name": "AutoInsult",
+	"description": "Automatically insults player that die within range",
+	"authors": [
+		"N3mbs"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/autoinsult/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.nembs.insult.AutoInsult",
+			"me.nembs.insult.DeathEvent"
+		]
+	},
+	"mixins": [
+		"autoinsult.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
