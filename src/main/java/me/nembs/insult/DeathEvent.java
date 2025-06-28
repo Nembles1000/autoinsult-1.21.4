@@ -71,6 +71,7 @@ public class DeathEvent implements ModInitializer {
                             messageTemplate,
                             deadPlayer.getName().getString()
                     );
+                    // send packet
                     MinecraftClient client = MinecraftClient.getInstance();
                     if (client.player != null && client.getNetworkHandler() != null) {
                         LastSeenMessageList.Acknowledgment emptyAck = new
