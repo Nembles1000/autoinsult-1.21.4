@@ -13,3 +13,7 @@ public class ExampleMixin {
 		// This code is injected into the start of MinecraftServer.loadWorld()V
 	}
 }
+
+// This class is useless
+// I did not use any mixin classes in this project
+// This class is the default mixins example from Fabric Template Mod Generator
