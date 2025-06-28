@@ -9,8 +9,8 @@ To actually run the mod, you need Fabric and Fabric API (preferably latest versi
 
 ## KNOWN PROBLEMS AND FLAWS ##
 The AutoInsult mod can only work in multiplayer servers that disable Signed Chat (servers that run the NoChatReports mod).
-The mod, in case of death, also insults the user of the mod (I plan on fixing this).
+The mod, in case of death, also insults the user (I plan on fixing this).
 
 ## IMPORTANT NOTE ##
 Note that the use of this mod in multiplayer servers might offend players or get the user banned, depending on the rules of said server.
-The insult list, named "DEATH_MESSAGES", can be modified by the user to suit his needs in a better way.
+The insult list, named "DEATH_MESSAGES", can be modified by the user to suit better his needs.
