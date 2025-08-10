@@ -11,6 +11,6 @@ public class AutoInsult implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("AutoInsult Mod correctly initialized");
+		LOGGER.info("AutoInsult Mod correctly");
 	}
 }
